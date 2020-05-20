@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:textSize="22sp"
+                android:text="Details"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/body"
+                android:layout_height="match_parent"
+                android:autoLink="phone|web|email"
+                android:textColorLink="@android:color/holo_blue_dark"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/heading"
+                android:textSize="17sp"
+                android:breakStrategy="simple"
+                android:padding="10dp"
+                android:typeface="monospace"/>
+
+        </RelativeLayout>
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

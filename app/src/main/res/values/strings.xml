@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cognitio</string>
+    <string name="aboutus">
+        COGNITIO is the annual festival of Mechanical Department of NIT Jamshedpur.
+        It was initiated in the session 2017-18 with a motive to stimulate innovative solutions to various real time problems in the industrial sector.
+        Students participate in this symposium in different events dealing with the implementation of engineering concepts followed by its feasibility study, optimisation, documentation and communication.
+        Also, profound lecture sessions are conducted by renowned speakers and proficient alumni of the institute.\n\n
+        The  theme  of  COGNITIO’19 is INDUSTRY 4.0, which corresponds to the 4th Generation industrialization.
+        Team COGNITIO promotes quality learning and inclusive growth creating leaders out of individual.
+
+    </string>
+
+
+    <string-array name="spinner">
+        <item>Administration</item>
+        <item>Core</item>
+        <item>Planning</item>
+        <item>Public Relation</item>
+        <item>App Developer</item>
+        <item>Management</item>
+        <item>Corporate Affairs</item>
+        <item>Creative</item>
+        <item>Literary</item>
+    </string-array>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activities.AboutUs"
+    android:background="@drawable/background1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="#000"
+        android:id="@+id/topbar">
+
+        <TextView
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="About Us"
+            android:layout_toEndOf="@+id/back_arrow"
+            android:layout_marginLeft="7dp"/>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_arrow_left_white_36px"
+            android:layout_centerVertical="true"
+            android:padding="7dp"
+            android:id="@+id/back_arrow"/>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_icon_share"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:id="@+id/share_icon"
+            android:layout_alignParentEnd="true"
+            android:padding="9dp"/>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_star_black_24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:id="@+id/rate_icon"
+            android:layout_toStartOf="@+id/share_icon"
+            android:padding="9dp"/>
+    </RelativeLayout>
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar">-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topbar">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:id="@+id/rl_one">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="COGNITIO '19"
+                            android:textStyle="bold"
+                            android:typeface="sans"
+                            android:textColor="#000"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="30sp"
+                            android:id="@+id/title"
+                            android:layout_marginTop="10dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="NIT Jamshedpur"
+                            android:typeface="monospace"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:id="@+id/tv_nitjsr"/>
+
+                        <!--<com.codesgood.views.JustifiedTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/mainbody"
+                            android:breakStrategy="simple"
+                            android:textSize="20sp"
+                            android:typeface="sans"
+                            android:text="@string/aboutus"
+                            android:paddingBottom="5dp"/>-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/aboutus"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+</RelativeLayout>

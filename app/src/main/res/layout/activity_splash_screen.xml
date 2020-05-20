@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/splash_icon"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/uppericon"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/splash_cognitio"
+        android:layout_centerInParent="true"
+        android:id="@+id/cognitio"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_industry"
+        android:layout_alignStart="@+id/cognitio"
+        android:layout_alignEnd="@+id/cognitio"
+        android:layout_below="@+id/cognitio"
+        android:id="@+id/industry"/>
+
+
+</RelativeLayout>
